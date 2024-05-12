@@ -1,0 +1,1 @@
+cmd_/home/cocacola/working/seg_example/seg_driver.mod := printf '%s\n'   seg_driver.o | awk '!x[$$0]++ { print("/home/cocacola/working/seg_example/"$$0) }' > /home/cocacola/working/seg_example/seg_driver.mod

@@ -1,0 +1,1 @@
+cmd_/home/cocacola/working/seg_example/seg_driver.ko := ld -r -EL -z noexecstack --build-id=sha1  -T scripts/module.lds -o /home/cocacola/working/seg_example/seg_driver.ko /home/cocacola/working/seg_example/seg_driver.o /home/cocacola/working/seg_example/seg_driver.mod.o;  true
